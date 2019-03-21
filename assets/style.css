@@ -1,16 +1,17 @@
+#stage{
+    width: 90vw;
+    height: 90vh;
+    overflow: hidden;
+}
 #curtain{
-    width:80vw;
-    height:90vh;margin: auto;
+    position: relative;
+    width: 100vw;
+    margin: auto;
 }
 
 #corgiSign{
-    width: 300px;
-    position: absolute;
-    top: 14%;
-    left: 35%;
-}
-#sign{
-    /* box-shadow: inset 2px 2px 90px yellow;
-    border-radius: 49%; */
-    /* transform: skewX(-12deg); */
+    width: 41vw;
+    position: fixed;
+    top: 4%;
+    left: 29%;
 }
